@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, {useEffect} from 'react';
+import { useAppDispatch, useAppSelector } from './app/hooks';
+import {getMinifigs} from "./features/minifigs/minifigsSlice";
+import {getHarryPotterMinifigs} from "./features/minifigs/minifigsSlice";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    const dispatch = useAppDispatch();
+    const minifigs = useAppSelector(getMinifigs);
+    useEffect(() => {
+        dispatch(getHarryPotterMinifigs())
+    }, [])
+
+    return minifigs ? (
+        <div className="App">
+            {minifigs.map((item: any) => (
+                <div style={{color:"blue"}} key={item.set_num}>{item.name}</div>
+            ))}
+        </div>
+    ) : null
+};
 
 export default App;
