@@ -8,24 +8,13 @@ import {LegoCard} from "../cards/LegoCard";
 import {useNavigate} from "react-router-dom";
 
 
-interface validDateProps {
-    name?: string;
-    surname?:string;
-    phone?:string;
-    email?:string;
-    date?:string;
-    address?:string;
-    city:string;
-    cityState?:string;
-    zip?:string;
-}
 
 interface SummaryDetailProps {
     value?: any;
     maxHeight: boolean;
     isModal: boolean;
     handleClose?: (open:boolean) =>void
-    validData?: any;
+    errors?: any;
 }
 
 interface DivProps {
@@ -34,7 +23,8 @@ interface DivProps {
 
 const Div = styled.div<DivProps>`
     position: relative;
-    width: ${(props) => (props.maxHeight ? '' : '30%')};
+    min-width: ${(props) => (props.maxHeight ? '' : '30%')};
+    max-width:800px;
     background: white;
     margin: 0 auto;
     padding: 15px;
@@ -63,40 +53,16 @@ const CenterButton = styled.div`
 `
 
 
-export const SummaryDetails: React.FC<SummaryDetailProps> = ({maxHeight, isModal,handleClose,validData}) => {
+export const SummaryDetails: React.FC<SummaryDetailProps> = ({maxHeight, isModal,handleClose, errors}) => {
     const details = useAppSelector(getMinifigsDetails);
     const currentMinifig = useAppSelector(getCurrentMinifig)
     const dispatch = useAppDispatch();
     const navigate = useNavigate();
-    const validateEmail = (value: any) => {
-        const re = /\S+@\S+\.\S+/;
 
-        return re.test(value);
-    };
-
-    const validatePhone = (value: any) => {
-        const re = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/;
-        return re.test(value) && value.length > 7 && value.length < 16;
-    };
-
-    const validateDate = (value: any) =>{
-        const reg = /(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d/;
-        return !!value?.match(reg);
-    }
-
-    const validateZipCode = (value:any) => {
-        const re = /^[0-9\b]+$/
-        return re.test(value) && value.length === 5
-    }
-
-    const validateAddress = (value:any) => {
-        return value.length > 8 && value.length < 40
-    }
 
     const validateButton = () => {
-        return (validData && validateEmail(validData.email) && validatePhone(validData.phone) && validateDate(validData.date) && validateZipCode(validData.code)
-            && validateAddress(validData.address) && validData.name && validData.name.length > 0 && validData.surname && validData.surname.length > 0
-            && validData.city && validData.city.length > 0 && validData.cityState && validData.cityState.length > 0)
+        const parsedErrors = Object.values(errors)
+        return !parsedErrors.includes(true) && parsedErrors.length === 9
     }
 
     const goToCash = () => {

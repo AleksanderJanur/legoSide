@@ -3,10 +3,6 @@ import {RootState} from './../../app/store';
 import {fetchHarryPotterMinifigs, fetchMinifigDetails, sendPurchaseRequest} from './minifigsApi';
 import Minifigs from './minifigsInterface';
 
-interface Details {
-    [key: number]: any;
-}
-
 export interface CouponState {
     minifigs: Array<Minifigs>;
     details: Array<any>;

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f461b8f6-3c3e-4e53-9467-f9d070a91358" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/ShippingDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/ShippingDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/SummaryDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/SummaryDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/minifigs/minifigsSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/minifigs/minifigsSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ChooseMinifig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ChooseMinifig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PaymentPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PaymentPage.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ElODsLqrllGq2A0q6FOpvsAqhI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Users\Olek\Desktop\tivix\my-app\node_modules\typescript\lib" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f461b8f6-3c3e-4e53-9467-f9d070a91358" name="Default Changelist" comment="" />
+      <created>1663166588073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663166588073</updated>
+      <workItem from="1663166590115" duration="3694000" />
+      <workItem from="1663170667868" duration="25522000" />
+      <workItem from="1663198469872" duration="41154000" />
+      <workItem from="1663265465294" duration="5254000" />
+      <workItem from="1663317700806" duration="41000" />
+      <workItem from="1663317754321" duration="3208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1148" y="592" width="581" height="609" key="#ESLint" timestamp="1663173475108">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1148" y="592" width="581" height="609" key="#ESLint/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663173475108" />
+    <state x="1034" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1663180013999">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1034" y="502" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663180013999" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1663516689107">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663516689107" />
+    <state x="1218" y="651" key="FileChooserDialogImpl" timestamp="1663317739782">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1218" y="651" key="FileChooserDialogImpl/-2560.0.2560.1400/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1663317739782" />
+    <state x="1218" y="651" key="FileChooserDialogImpl/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663236262719" />
+    <state width="2517" height="229" key="GridCell.Tab.0.bottom" timestamp="1663175396356">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="229" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663175396356" />
+    <state width="2517" height="229" key="GridCell.Tab.0.center" timestamp="1663175396356">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="229" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663175396356" />
+    <state width="2517" height="229" key="GridCell.Tab.0.left" timestamp="1663175396356">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="229" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663175396356" />
+    <state width="2517" height="229" key="GridCell.Tab.0.right" timestamp="1663175396356">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="229" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663175396356" />
+    <state x="-1779" y="345" key="SettingsEditor" timestamp="1663265870406">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1779" y="345" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1663265870406" />
+    <state x="781" y="345" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663187245172" />
+    <state x="-2491" y="114" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1663512299947">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-7" y="117" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1663272104578" />
+    <state x="-2491" y="114" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663512299947" />
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1663262523347">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663262523347" />
+    <state x="-1916" y="174" width="1850" height="949" key="dock-window-1" timestamp="1663513490099">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1916" y="174" width="1850" height="949" key="dock-window-1/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663513490099" />
+    <state x="987" y="433" width="585" height="592" key="find.popup" timestamp="1663516794534">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="433" width="585" height="592" key="find.popup/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663516794534" />
+    <state x="662" y="383" key="new project wizard" timestamp="1663182897941">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="383" key="new project wizard/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663182897941" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1663249078383">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663249078383" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1663512431286">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1663512431286" />
+  </component>
+</project>

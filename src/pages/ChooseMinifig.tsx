@@ -4,21 +4,17 @@ import {getMinifigDetails, getMinifigs} from "../features/minifigs/minifigsSlice
 import Minifigs from "../features/minifigs/minifigsInterface";
 import {LegoCard} from '../components/cards/LegoCard';
 import styled from "styled-components";
-import {Box, Grid} from '@mui/material';
+import {Grid} from '@mui/material';
 import {AppButton} from "../components/buttons/AppButton";
 import {useNavigate} from "react-router-dom";
 
 const Div = styled.div`
   display: flex;
-  position: absolute;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
+   min-height: 90vh;  
 `
 
 const Typography  = styled.h1`
@@ -29,8 +25,6 @@ const Typography  = styled.h1`
 `
 const StyledGrid = styled(Grid)`
   && {
-    flex-direction: row;
-    flex-wrap: nowrap;
     margin-top: 15px;
     margin-bottom: 50px;
   }
